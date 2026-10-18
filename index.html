@@ -240,6 +240,21 @@
   .dir-sign{font-size:.86rem;color:var(--muted);margin:0;}
   .dir-sign b{display:block;color:var(--navy);font-size:.95rem;font-weight:600;}
 
+  /* ---------- Kredensial Direktur ---------- */
+  .dir-cred{margin-top:48px;display:grid;gap:30px;}
+  @media(min-width:820px){ .dir-cred{grid-template-columns:repeat(3,1fr);gap:40px;} }
+  .dir-cred h4{
+    font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);
+    font-weight:700;margin:0 0 6px;padding-bottom:12px;border-bottom:2px solid var(--navy);
+  }
+  .dir-cred ul{list-style:none;margin:0;padding:0;}
+  .dir-cred li{
+    font-size:.92rem;color:var(--navy);font-weight:600;line-height:1.55;
+    padding:12px 0;border-bottom:1px solid var(--line);
+  }
+  .dir-cred li:last-child{border-bottom:none;}
+  .dir-cred li span{display:block;color:var(--muted);font-weight:500;font-size:.83rem;margin-top:3px;}
+
   /* ---------- Reveal ---------- */
   .reveal{opacity:0;transform:translateY(16px);transition:opacity .55s ease,transform .55s ease;}
   .reveal.in{opacity:1;transform:none;}
@@ -354,8 +369,9 @@
         <li><strong>Bentuk Badan Usaha</strong><span>Persekutuan Komanditer (CV)</span></li>
         <li><strong>Bidang Usaha</strong><span>Jasa Pelaksana Konstruksi</span></li>
         <li><strong>Tahun Berdiri</strong><span>2016</span></li>
-        <li><strong>Direktur</strong><span>R. Harmono P. T. I.</span></li>
+        <li><strong>Direktur</strong><span>Drs. R. Harmono P. T. I., S.T</span></li>
         <li><strong>Alamat Kantor</strong><span class="ph">[ Alamat lengkap ]</span></li>
+        <li><strong>Alamat Kantor Lama</strong><span>Dsn. Jatisari, Ds. Kedungjati, Kec. Kabuh, Kab. Jombang, Jawa Timur</span></li>
         <li><strong>Wilayah Kerja</strong><span>Jombang, Jawa Timur</span></li>
         <li><strong>Telepon</strong><span>+62 813-3527-8164</span></li>
       </ul>
@@ -382,6 +398,33 @@
           <b>R. Harmono P. T. I.</b>
           Direktur
         </p>
+      </div>
+    </div>
+
+    <div class="dir-cred reveal">
+      <div>
+        <h4>Organisasi</h4>
+        <ul>
+          <li>Ketua Gapensi Jombang</li>
+          <li>Ketua Mastrip Jombang</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Pendidikan</h4>
+        <ul>
+          <li>Teknik Sipil (S.T.)<span>Lulus 17 September 2024</span></li>
+          <li>PDU STKIP (S1)<span>Lulus 1991</span></li>
+          <li>SMPP / SMA Negeri 2 Jombang<span>Lulus 1983</span></li>
+          <li>SMP Negeri 1 Jombang</li>
+          <li>SD Negeri Betari</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Riwayat Pekerjaan</h4>
+        <ul>
+          <li>Direktur CV. Maharani Lestari<span>2016 &ndash; sekarang</span></li>
+          <li>Pimpinan HR PT. Jaya Kertas</li>
+        </ul>
       </div>
     </div>
   </div>
